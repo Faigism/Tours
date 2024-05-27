@@ -15,7 +15,7 @@ const Tour = ({ id, name, image, info, price, removeTour }) => {
             className="info-btn"
             onClick={() => setReadMore(!readMore)}
           >
-            Read More
+            {readMore ? 'Show Less' : 'Read More'}
           </button>
         </p>
         <button
